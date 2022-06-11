@@ -15,7 +15,7 @@ window.onload =  function myFunction() {
   
   if(document.readyState === "complete")
   { 
-    document.getElementById('preloader').style.display = "block";
+    document.getElementById('preloader').style.display = "none";
   }
 
     
