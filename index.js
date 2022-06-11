@@ -7,3 +7,16 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+
+
+  //preloader
+window.onload =  function myFunction() {
+  
+  if(document.readyState === "complete")
+  { 
+    document.getElementById('preloader').style.display = "block";
+  }
+
+    
+}
