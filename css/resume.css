@@ -3,4 +3,46 @@ body,html{
     margin: 0;
     padding: 0;
     background-color: black;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.container .left{
+    width: 20%;
+    height: 600px;
+    background-color: aqua;
+}
+
+.container .right{
+    width: 80%;
+    height: 600px;
+    background-color: beige;
+}
+
+
+.section-intro{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section-intro div{
+    padding: 5px;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+
+.section-intro img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
